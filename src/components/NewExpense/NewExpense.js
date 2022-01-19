@@ -31,7 +31,7 @@ const NewExpense = (props) => {
 
     return (
         <div className="new-expense">
-           <ExpenseForm onCancel={cancelNewExpenseClick} onSaveExpenseData={saveExpenseDataHandler}/>
+           <ExpenseForm onCancelClick={cancelNewExpenseClick} onSaveExpenseData={saveExpenseDataHandler}/>
         </div>
     )
 
